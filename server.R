@@ -69,7 +69,7 @@ function(input, output, session) {
           size = 0.1,
           mode = 'lines',
           inherit = TRUE
-        )
+        ), height = 800, width = 1200
     }) 
   })
 
