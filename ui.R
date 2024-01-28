@@ -43,7 +43,7 @@ navbarPage(
         
         mainPanel(
           div(
-            plotlyOutput("kmeansplot", height = "200%") %>% withSpinner(color="#0dc5c1")
+            plotlyOutput("kmeansplot") %>% withSpinner(color="#0dc5c1")
           )
         )
       )
